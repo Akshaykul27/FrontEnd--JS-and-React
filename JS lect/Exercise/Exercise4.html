@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loop exercise</title>
+</head>
+<body>
+    
+    <script>
+    // Que.     a postitive number form user
+            // 1. calculate factorial
+            // 2. check whether that number is prime or not
+
+
+
+        let num = Number(prompt("Enter number"))
+        let fact = 1;
+        for (let i = 1; i <= num; i++){
+            fact = fact* i
+        }
+        alert("Factorial = "+ fact)
+
+        function primenum(b){
+            let flag = 0
+            let c = b/2
+            if(b == 0  || b == 1){
+                return false
+            }
+            else{
+                for(let i=2; i<c; i++){
+                    if(b % i == 0){
+                        return false
+                    }
+                    return true
+                }
+            }
+        }
+        if(primenum(num) == true){
+            alert("prime number")
+        }
+        else{
+            alert("Not prime number")
+        }
+        
+
+    </script>
+</body>
+</html>

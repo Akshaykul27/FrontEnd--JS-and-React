@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1, h2, h3 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin: 5px;
+}
+
+h2{
+	padding: 10px;
+	width: 300px;
+	margin: 0 auto 10px;
+}
+
+h3 {
+	background-color: gray;
+	padding: 10px;
+	width: 100px;
+	margin: 0 auto 10px;
+    border-radius: 10px
+}
+
+.row {
+	display: flex;
+	width: 606px;
+	height: 606px;
+	flex-wrap: wrap;
+	margin: auto;
+	/* font-family: "Permanent Marker"; */
+}
+
+.col {
+	width: 200px;
+	height: 200px;
+	background-color: gray;
+	border: 1px solid  black;
+    border-radius: 10px;
+	font-size: 8em;
+    text-align: center;
+} 
+
+.restart{
+    /* border: 2px solid wheat; */
+    /* color: white; */
+    text-align: center;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+button{
+    border-radius: 10px;
+    background-color: gray;
+    border: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    width: 260px;
+    height: 50PX;
+
+}
